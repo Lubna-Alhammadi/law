@@ -1,0 +1,804 @@
+/* Medium Layout: 1367px. */
+
+@media only screen and (min-width: 1200px) and (max-width: 1367px) {
+
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (max-width: 1199px) {
+    .fullscreensearch {
+        padding: 15px;
+    }
+    .mtq-img {
+        margin: 0 auto;
+    }
+    .testimonial3-area {
+        overflow: hidden;
+    }
+    .mtq-text {
+        padding: 25px 45px;
+    }
+    
+    .mtq-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .testimonial-carousel .owl-nav .owl-next {
+        margin-right: -40px;
+    }
+    
+    .testimonial-carousel .owl-nav .owl-prev {
+        margin-left: -40px;
+    }
+}
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1024px) {
+
+
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    ul.mti-list li.mti-sbtn {
+        display: none;
+    }
+    .ghv2 .gm-box .mt-icons {
+        margin-right: -5px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .our-promise2-area {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .single-comment .sc-text {
+        padding: 30px;
+    }
+    
+    .single-comment .sc-avatar {
+        display: none;
+    }
+    
+    .single-comment.sc-subcomment .sc-text {
+        padding-left: 60px;
+    }
+    
+    ul.mti-list li.mti-sbtn {
+        display: none;
+    }
+    .testimonial-carousel .owl-nav {
+        display: none;
+    }
+    .breadcrumb-area {
+        margin-top: 115px;
+        padding: 60px 0px;
+    }
+    
+    .grerbin-breadcrumb h3 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    
+    .grerbin-breadcrumb ul.bc-list li, .grerbin-breadcrumb ul.bc-list li a {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .accordion .card .card-header h5 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .accordion .card .card-body p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    
+    .sidebar-search {}
+
+    .sidebar-attorneys h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .ss-attorneys a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .sidebar-attorneys .ss-attorneys {
+        padding: 15px 25px;
+    }
+
+    .tagWidget ul.tag-list li a {
+        font-size: 12px;
+        padding: 6px 9px;
+    }
+    .single-attorney .sa-info h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .hero-content .hero-text h2 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    
+    .opa-text h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .opa-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .opa-text {
+        padding-top: 0px;
+    }
+    
+    .opa-signature {
+        margin: 25px auto;
+    }
+    
+    .our-promise-area {
+        padding-bottom: 25px;
+    }
+    
+    .single-practice .sp-text h4 {
+        font-size: 22px;
+    }
+    
+    .single-practice .sp-text p {
+        margin: 15px auto;
+    }
+    
+    .fcea-text h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .single-blog-news .sb-text h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .single-blog-news ul.meta-list li, .single-blog-news ul.meta-list li a {
+        font-size: 14px;
+    }
+    
+    section.news-area {
+        padding-bottom: 60px;
+    }
+    
+    ul.grerbin-menu li a {
+        font-size: 11px;
+        padding: 10px 8px;
+    }
+    ul.grerbin-menu li a:hover {
+        font-size: 11px;
+        padding: 10px 8px;
+    }
+    ul.grerbin-menu li a.has-submenu.highlighted{
+        padding: 10px 8px;
+        padding-right: 32px;
+    }
+    ul.grerbin-menu li a.has-submenu:hover {
+        padding-right: 32px;
+    }
+    
+    
+    #grerbinMenu {
+        margin: 0 auto;
+    }
+    
+    ul.mti-list li {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    ul.mti-list {
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+    
+    .gm-box {}
+    
+    .grerbin-header-box {
+        padding-bottom: 6px;
+    }
+    
+    .hero-slider {
+        padding-top: 115px;
+    }
+    
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .aop2-text {
+        padding: 20px 0px;
+        margin: 0 auto;
+    }
+    .attorneys2-area {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .countdown.single-countdown span {
+        font-size: 14px;
+    }
+    
+    .countdown.single-countdown {
+        font-size: 30px;
+        padding: 15px;
+        min-width: 85px;
+        line-height: 10px;
+    }
+    
+    ul.cdown-list li:after {
+        top: 3px;
+        right: -8px;
+        font-size: 40px;
+    }
+    
+    .csa-text h3 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    
+    .csa-logo {
+        margin-bottom: 20px;
+    }
+    .error-content .ec-text h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .error-area {
+        padding: 25px 0px;
+    }
+    
+    .error-content .ec-text {
+        margin: 20px auto;
+    }
+    .faq-area {
+        padding: 20px 0px;
+    }
+    .get-in-touch-box {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+    
+    .gtb-title {
+        text-align: center;
+    }
+    
+    .gtb-title h3:after {
+        left: calc(50% - 50px);
+    }
+    
+    .contact-form {
+        text-align: center;
+    }
+    .sV2 {
+        max-width: 350px;
+    }
+    .gallery-area {
+        padding: 20px 0px;
+    }
+    .practice-details-area {
+        padding: 40px 0px;
+    }
+    ul.pagination {
+        display: block;
+    }
+    
+    ul.pagination li {
+        display: inline-block;
+    }
+    
+    ul.pagination a {
+        font-size: 12px;
+        padding: 5px 10px;
+        margin: 3px auto;
+    }
+    .blog-sidebar {
+        margin-top: 50px;
+    }
+    .practice-page-area {
+        margin: 40px auto;
+    }
+    .breadcrumb-area {
+        margin-top: 68px;
+        padding: 25px 0px;
+    }
+    .grerbin-breadcrumb ul.bc-list li, .grerbin-breadcrumb ul.bc-list li a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .about-page-area {
+        padding: 60px 0px;
+    }
+    
+    .about-page-area .opa-img {
+        margin-bottom: 25px;
+    }
+    
+    .aboutPtext h3 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    
+    .aboutPimg {
+        text-align: center;
+    }
+    a.btn-style-b,
+    a.btn-style-c {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .logo-wrapper {
+        position: relative;
+        width: 160px;
+    }
+    
+    label.grerbinMenu-btn {
+        margin: 0 auto;
+    }
+    
+    ul.mti-list li label {
+        height: 40px;
+        width: 40px;
+        border: 1px solid #b99165;
+        text-align: center;
+        padding-top: 8px;
+        border-radius: 5px;
+        margin-bottom: 0px;
+        position: relative;
+        color: #b99165;
+    }
+    
+    ul.mti-list li {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    ul.mti-list {
+        margin: 0 auto;
+    }
+    
+    .grerbin-header-box {
+        padding-bottom: 6px;
+    }
+    
+    .hero-slider {
+        padding-top: 65px;
+    }
+    .grerbin-top-header {
+        display: none;
+    }
+    .our-promise-area {
+        overflow: hidden;
+    }
+
+    // Menu CSS
+    #grerbinMenu {
+        position: fixed;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        text-align: center;
+    }
+    
+    ul.grerbin-menu li {
+        padding: 0px 15px;
+    }
+    
+    ul.grerbin-menu li a {
+        text-align: center;
+    }
+
+    .grerbinMenu-btn {
+        -webkit-tap-highlight-color: rgba(185, 145, 101, 0);
+        background-color: rgba(185, 145, 101, 0);
+    }
+    
+    ul.mti-list li label {
+        border: none;
+        color: #fff;
+        top: 4px;
+        font-size: 18px;
+    }
+    // Menu CSS END
+
+    .heroV1 .hero-content {
+        padding-bottom: 80px;
+        padding-top: 40px;
+    }
+    
+    .hero-content .hero-text h2 {
+        font-size: 38px;
+        line-height: 44px;
+        margin-bottom: 20px;
+    }
+    
+    a.btn-style-a {
+        font-size: 14px;
+        padding: 8px 18px;
+    }
+    
+    .single-counter h4 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    
+    .single-counter p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .opa-text h3 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    .our-promise-area {
+        padding: 120px 0px 40px;
+    }
+    
+    .attorneys-area {
+        padding-top: 0px;
+    }
+    
+    form.nl-form input[type="submit"] {
+        margin: 15px auto;
+    }
+    
+    .newsletter-wrapper {
+        padding-bottom: 30px;
+    }
+    
+    .f-widget {
+        text-align: center;
+    }
+    .hero-content .hero-text {
+        padding: 0px 40px;
+    }
+    .ghv2 label.grerbinMenu-btn {
+        color: #ac151d;
+    }
+    
+    .ghv2 label.grerbinMenu-btn span.grerbinMenu-btn-icon:before,
+    .ghv2 label.grerbinMenu-btn span.grerbinMenu-btn-icon:after {
+        background-color: #ac151d;
+        border-color: #ac151d;
+    }
+    
+    
+    .ghv2 .grerbinMenu-btn .grerbinMenu-btn-icon {
+        background-color: #ac151d;
+    }
+
+    .ghV3 label.grerbinMenu-btn {
+        color: #214167;
+    }
+    .ghV3 label.grerbinMenu-btn span.grerbinMenu-btn-icon:before,
+    .ghV3 label.grerbinMenu-btn span.grerbinMenu-btn-icon:after {
+        background-color: #214167;
+        border-color: #214167;
+    }
+    .ghV3 .grerbinMenu-btn .grerbinMenu-btn-icon {
+        background-color: #214167;
+    }
+    .our-promise2-area {
+        overflow: hidden;
+    }
+    .news-area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .ghv2 ul.grerbin-menu {
+        background-color: #fff;
+    }
+    .heroV2 {
+        padding-top: 65px;
+    }
+    .adi-text {
+        margin-top: 20px;
+    }
+    .attorneys-page-area {
+        padding: 40px 0px;
+    }
+    
+    .attorny-img-info .aii-info .aii-title h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .single-practice.sPv2.spmtop {
+        margin-top: 0px;
+    }
+
+
+
+
+    html[dir="rtl"] {
+        .logo-wrapper {
+            position: relative;
+            width: 120px;
+            margin: 6px auto;
+            margin-right: 10px;
+        }
+    }
+    
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    
+}
+@media only screen and (max-width: 480px) {
+    .countdown.single-countdown span {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .countdown.single-countdown {
+        font-size: 20px;
+        padding: 10px;
+        min-width: 60px;
+        line-height: 0px;
+    }
+    
+    ul.cdown-list li:after {
+        top: 0px;
+        right: -8px;
+        font-size: 36px;
+    }
+    
+    .csa-text h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .csa-logo {
+        margin-bottom: 20px;
+    }
+    
+    .csa-text p {
+        margin: 15px auto;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    
+    .csa-text {
+        margin-bottom: 30px;
+    }
+    
+    .coming-soon-area {
+        padding: 40px 0px;
+    }
+    
+    .csa-nl form.nl-form input {
+        font-size: 12px;
+        padding: 10px;
+        height: 40px;
+    }
+    
+    form.nl-form input[type="submit"] {
+        padding: 4px;
+    }
+    
+    .csa-social ul.footer-social li a {
+        font-size: 15px;
+        line-height: 20px;
+        height: 35px;
+        width: 35px;
+        padding-top: 9px;
+    }
+    
+    .csa-social ul.footer-social {
+        margin: 15px auto;
+    }
+    .accordion .card .card-header h5 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .accordion .card .card-body p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .sbn-largev .sb-text h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .single-blog-news .sb-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .sbn-largev .sb-meta {
+        padding: 10px 0px;
+    }
+    
+    .single-blog-news ul.meta-list li, .single-blog-news ul.meta-list li a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .sidebar-search {}
+
+    .sidebar-attorneys h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .ss-attorneys a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .sidebar-attorneys .ss-attorneys {
+        padding: 15px 25px;
+    }
+
+    .tagWidget ul.tag-list li a {
+        font-size: 12px;
+        padding: 6px 9px;
+    }
+    .grerbin-breadcrumb h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .grerbin-breadcrumb ul.bc-list li, .grerbin-breadcrumb ul.bc-list li a {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .breadcrumb-area {
+        margin-top: 68px;
+        padding: 15px 0px;
+    }
+    .aboutPtext h3 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+    .about-page-area .opa-img {
+        margin-bottom: 15px;
+    }
+    .aboutPtext p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    
+    .free-case-evaluation-area {
+        padding-bottom: 40px;
+    }
+        
+    .saV2 .sa-info {
+        top: -50px;
+    }
+    .hero-content .hero-text h2 {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    .counter-box ul li {
+        width: 100%;
+        margin: 0 auto !important;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #e3ccb4;
+        border-bottom: 1px solid #e3ccb4;
+    }
+    
+    .counter-box ul li:first-child {
+        border-top: none;
+    }
+    
+    .counter-box ul li:last-child {
+        border-bottom: none;
+    }
+    
+    .counter-box ul {
+        max-width: 140px;
+        margin: 0 auto;
+    }
+    .our-promise-area {
+        padding: 60px 0px 40px;
+        margin-top: -25px;
+    }
+    
+    .opa-text {
+        padding-top: 0px;
+    }
+    
+    .opa-text h3 {
+        font-size: 26px;
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+    
+    .opa-signature {
+        margin: 25px auto;
+    }
+    
+    .area-of-practice {
+        padding: 15px 0px;
+    }
+    
+    .section-titleV1 h3 {
+        font-size: 26px;
+        line-height: 44px;
+    }
+    
+    .area-of-practice .section-titleV1 {
+        margin-bottom: 30px;
+    }
+    
+    .view-all-practice-btn {
+        margin-top: 20px;
+    }
+    
+    .attorneys-area .section-titleV1 {
+        padding-bottom: 60px;
+    }
+    
+    .single-attorney .sa-info h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .attorneys-area {
+        padding-bottom: 20px;
+    }
+    
+    .fcea-text h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .copyright-text p {
+        line-height: 20px;
+        font-size: 14px;
+    }
+    
+    .copyright-text a {
+        font-size: 14px;
+    }
+    .single-attorney .sa-info h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+    
+}

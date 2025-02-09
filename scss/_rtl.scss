@@ -1,0 +1,115 @@
+/*----------------------------------------*/
+/*  Grerbin RTL Style
+/*----------------------------------------*/
+html[dir="rtl"] {
+    .gm-box {
+        text-align: left;
+    }
+    
+    .gm-box .mt-icons {
+        float: left;
+    }
+    
+    .grerbin-top-header .gth-right {
+        text-align: left;
+    }
+    
+    .grerbin-top-header .gth-left {
+        text-align: right;
+    }
+    .hero-slider {
+        direction: ltr;
+        
+        .slick-prev {
+            right: unset;
+            left: 0;
+            margin-left: 5px;
+        }
+        .slick-next {
+            right: 0;
+            margin-right: 5px;
+            left: unset;
+        }
+        .slick-slide {
+            float: left;
+        }
+        
+    }
+    .counter-area {
+        position: relative;
+        direction: ltr;
+    }
+    .attorneys-area {
+        direction: ltr;
+    }
+    .testimonial-area {
+        direction: ltr;
+    }
+    .single-blog-news .sb-meta {
+        text-align: right;
+    }
+    
+    .single-blog-news .sb-meta i {
+        margin-left: 3px;
+    }
+    
+    .single-blog-news .sb-text {
+        text-align: right;
+    }
+    
+    .single-blog-news ul.meta-list li {
+        margin-right: 0px;
+    }
+    .opa3-img:before,
+    .opa2-img:after {
+        right: unset;
+        left: -75px;
+        bottom: -50px;
+    }
+    .middle-text-qoutes-area,
+    .testimonial2-area,
+    .testimonial3-area,
+    .attorneys2-area {
+        direction: ltr;
+    }
+
+    .breadcrumb-area {
+        text-align: right;
+    }
+
+    .grerbin-breadcrumb ul.bc-list li:after {
+        content: '\f104';
+        left: -12px;
+        right: unset;
+        
+    }
+    ul.pagination a i,
+    .single-blog-news .sb-text a i {
+        transform: scaleX(-1);
+        margin-right: 5px;
+    }
+
+    .ss-group .ss-btn {
+        left: 0;
+        right: unset;
+    }
+
+    .single-practice .sp-text a i {
+        transform: scaleX(-1);
+        margin-right: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------*/
+/*  Grerbin RTL Style END
+/*----------------------------------------*/

@@ -1,0 +1,42 @@
+/*----------------------------------------*/
+/*  Gallery Style
+/*----------------------------------------*/
+.gallery-area {
+    position: relative;
+    padding: 80px 0px;
+}
+
+.gallery-box {
+    position: relative;
+    margin: 25px auto;
+}
+
+.single-galleryV1 {
+    position: relative;
+    max-width: 350px;
+    margin: 15px auto;
+    overflow: hidden;
+    a[data-fancybox="gallery"] {
+        position: relative;
+        display: block;
+    }
+}
+
+.single-galleryV1 {
+    img {
+        transition: .5s ease;
+    }
+    &:hover {
+        img {
+            transform: scale(1.15);
+        }
+    }
+}
+
+.sV2 {
+    max-width: 1140px;
+}
+
+/*----------------------------------------*/
+/*  Gallery Style END
+/*----------------------------------------*/

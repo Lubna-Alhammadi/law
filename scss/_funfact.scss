@@ -1,0 +1,219 @@
+/*----------------------------------------*/
+/*  Funfact Style
+/*----------------------------------------*/
+
+.counter-area {
+    position: relative;
+}
+
+.counter-box {
+    position: relative;
+    background-color: $primaryColor;
+    margin-top: -75px;
+    padding: 25px;
+    @include boxshadow(0px 13px 35px -12px rgba(35,35,35,0.15));
+    ul {
+        position: relative;
+        padding: 0px;
+        list-style-type: none;
+        li {
+            position: relative;
+            width: 33.3333333%;
+            display: inline-block;
+            margin: 0px -4px;
+            border: 2px solid #e3ccb4;
+            border-top: none;
+            border-bottom: none;
+            &:first-child {
+                border-left: none;
+                margin-left: 0px;
+                margin-right: -3px;
+            }
+            &:last-child {
+                border-right: none;
+                margin-left: -4px;
+            }
+        }
+    }
+}
+.counter-box.cbox2 {
+    ul {
+        li {
+            border-color: #bbbdc3;
+        }
+    }
+    .single-counter {
+        p {
+            text-transform: uppercase;
+        }
+    }
+}
+.single-counter {
+    position: relative;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    h4 {
+        font-size: 40px;
+        letter-spacing: 0px;
+        color: $elementsColor;
+        line-height: 44px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        span {
+            font-family: 'PT Serif', serif;
+        }
+    }
+    p {
+        font-size: 16px;
+        color: $secondaryColor;
+        line-height: 24px;
+    }
+}
+
+.scounter2 {
+    h4 {
+        color: $denaryColor;
+    }
+}
+
+
+/*----------------------------------------*/
+/*  Funfact Style END
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  Free Case Evaluation
+/*----------------------------------------*/
+
+.free-case-evaluation-area {
+    position: relative;
+    padding-bottom: 120px;
+}
+
+.fcea-text {
+    position: relative;
+    padding: 8px 0px;
+    text-align: center;
+    h3 {
+        font-size: 36px;
+        letter-spacing: 0px;
+        color: $quaternaryColor;
+        line-height: 40px;
+        font-weight: 600;
+        display: inline-block;
+        position: relative;
+    }
+}
+
+.fce-form-wrapper {
+    position: relative;
+    margin: 15px auto;
+}
+
+.grerbin-input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    letter-spacing: 0px;
+    background-color: $colorXIColor;
+    border: 1px solid $colorXIColor;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+textarea.grerbin-input {
+    min-height: 125px;
+}
+
+.grerbin-input-btn {
+    width: 100%;
+    display: block;
+    background-color: $elementsColor;
+    color: $primaryColor;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    border: 1px solid $elementsColor;
+    letter-spacing: 0px;
+    padding: 8px;
+    cursor: pointer;
+    margin-top: -10px;
+    height: 55px; 
+    @include transition(all, .5s, ease);
+    &:hover {
+        background-color: #b1824f;
+    }
+}
+
+
+.free-case-evaluation2-area {
+    position: relative;
+    background-image: url(../img/bg/free-case-evaluation.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 120px 0px;
+    z-index: 1;
+    &:before {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        background-color: $nonaryColor;
+        opacity: .6;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+
+.fceatV2 {
+    max-width: 460px;
+    margin: 0 auto;
+    h3 {
+        color: $primaryColor;
+    }
+    .grerbin-input-btn {
+        background-color: $primaryColor;
+        color: $quaternaryColor;
+        font-weight: 600;
+        &:hover {
+            background-color: $quaternaryColor;
+            border: 1px solid $quaternaryColor;
+            color: $primaryColor;
+        }
+    }
+    
+}
+
+.free-case-evaluation3-area {
+    position: relative;
+    background-image: url(../img/bg/free-case-evaluation3.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 65px 0px;
+    margin-bottom: 80px;
+    z-index: 1;
+    &:before {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        background-color: $elementsColor;
+        opacity: .6;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .grerbin-input-btn {
+        background-color: $elementsColor;
+        color: $primaryColor;
+    }
+}
+
+/*----------------------------------------*/
+/*  Free Case Evaluation END
+/*----------------------------------------*/

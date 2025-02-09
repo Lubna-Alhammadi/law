@@ -1,0 +1,478 @@
+/*----------------------------------------*/
+/*  Our Promise Area Style
+/*----------------------------------------*/
+.our-promise-area {
+    position: relative;
+    padding: 120px 0px;
+}
+
+.opa-text {
+    position: relative;
+    padding-top: 25px;
+    &:before {
+        position: absolute;
+        content: '';
+        height: calc(100% + 150px);
+        width: 200%;
+        background-color: $quinary;
+        z-index: -1;
+        left: -50%;
+        top: -50px;
+    }
+    h3 {
+        font-size: 40px;
+        letter-spacing: 0px;
+        color: $quaternaryColor;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        color: $secondaryColor;
+        font-weight: 400;
+        
+    }
+}
+.opa-text.opat3 {
+    h3 {
+        color: #214167;
+    }
+}
+.opa-signature {
+    position: relative;
+    margin: 50px auto;
+    p {
+        font-size: 14px;
+        letter-spacing: 0px;
+        color: $elementsColor;
+        line-height: 20px;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 5px auto;
+    }
+}
+
+
+.opa-img {
+    position: relative;
+    z-index: 1;
+    &:after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: $tertiaryColor;
+        opacity: 0.502;
+        z-index: 0;
+    }
+    .opa-btn {
+        position: absolute;
+        top: calc(50% - 30px);
+        left: 0;
+        height: 60px;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+}
+
+
+.opa-btn {
+    a {
+        color: $elementsColor;
+        background-color: $primaryColor;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        font-size: 26px;
+        line-height: 42px;
+        text-align: center;
+        padding: 9px 0px 4px 8px;
+    }
+}
+
+
+
+
+.opa2-text{
+    &:before {
+        display: none;
+    }
+}
+
+.stV2 {
+    h3 {
+        :after {
+            display: none;
+        }
+    }
+    
+}
+
+.our-promise2-area {
+    position: relative;
+    background-color: #f4f5f5;
+    padding: 80px 0px;
+}
+
+.opa2-img {
+    position: relative;
+    z-index: 1;
+    &:after {
+        position: absolute;
+        content: '';
+        height: calc(100% + 85px);
+        width: 50%;
+        right: -75px;
+        bottom: -85px;
+        background-color: #ab121a;
+        z-index: -1;
+    }
+}
+
+
+// Opa 2
+.our-promise3-area {
+    position: relative;
+    padding: 120px 0px;
+    overflow: hidden;
+}
+
+.opat3 {
+    position: relative;
+    &:before {
+        display: none;
+    }
+}
+
+
+.opa3-img {
+    position: relative;
+    z-index: 1;
+    &:before {
+        position: absolute;
+        content: '';
+        height: calc(100% + 100px);
+        width: 260px;
+        right: -60px;
+        top: -50px;
+        background-color: #f2f2f5;
+        z-index: -1;
+    }
+}
+
+/*----------------------------------------*/
+/*  Our Promise Area Style END
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*  Middle Text Qoutes Area Style
+/*----------------------------------------*/
+
+.middle-text-qoutes-area {
+    position: relative;
+    padding-top: 80px;
+    background-image: url(../img/bg/middle-text-qoutes.jpg);
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+    &:before {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        background-color: $tertiaryColor;
+        opacity: .80;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+.mtq-img {
+    position: relative;
+    margin-top: -180px;
+}
+
+.mtq-text {
+    position: relative;
+    padding: 50px 40px 40px 80px;
+    background-color: $primaryColor;
+    p {
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+    span.qoutes {
+        font-size: 65px;
+        display: inline-block;
+        margin-left: -35px;
+        margin-right: 5px;
+        color: #a5a9b5;
+    }
+}
+
+/*----------------------------------------*/
+/*  Middle Text Qoutes Area Style END
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  About Page Area Style
+/*----------------------------------------*/
+
+.about-page-area {
+    position: relative;
+    padding: 120px 0px;
+}
+
+.about-page-area {
+    .opa-img {
+        margin-bottom: 50px;
+        max-width: 520px;
+        img {
+            height: 380px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.aboutPtext {
+    position: relative;
+    h3 {
+        font-size: 40px;
+        letter-spacing: 0px;
+        line-height: 48px;
+        font-weight: 600;
+        margin: 12px auto 25px;
+    }
+    p {
+        color: $secondaryColor;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    ul.apt-list {
+        position: relative;
+        padding: 0;
+        list-style-type: none;
+        padding-left: 50px;
+        li {
+            position: relative;
+            margin: 15px auto;
+            color: $secondaryColor;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 30px;
+            letter-spacing: 0px;
+            span {
+                color: $quaternaryColor;
+                font-weight: 500;
+            }
+            &:before {
+                position: absolute;
+                content: '';
+                height: 8px;
+                width: 8px;
+                background-color: #c89a69;
+                left: -15px;
+                top: 6px;
+            }
+        }
+    }
+}
+
+/*----------------------------------------*/
+/*  About Page Area Style END
+/*----------------------------------------*/
+
+
+
+/*----------------------------------------*/
+/*  Error Area Style
+/*----------------------------------------*/
+.error-area {
+    position: relative;
+    padding: 80px 0px;
+}
+
+.error-content {
+    position: relative;
+    margin: 25px auto;
+    text-align: center;
+    .ec-img {
+        position: relative;
+        margin: 25px auto;
+    }
+    .ec-text {
+        position: relative;
+        padding: 15px 0px;
+        margin: 40px auto;
+        h3 {
+            font-size: 36px;
+            letter-spacing: 0px;
+            line-height: 44px;
+            margin-bottom: 35px;
+        }
+    }
+}
+
+/*----------------------------------------*/
+/*  Error Area Style END
+/*----------------------------------------*/
+
+
+
+
+
+/*----------------------------------------*/
+/*  Coming Soon Style
+/*----------------------------------------*/
+.coming-soon-area {
+    position: relative;
+    background-image: url(../img/section-img/coming-soon.jpg);
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+    min-height: 100vh;
+    padding: 80px 0px;
+    text-align: center;
+    &:before {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        background-color: $tertiaryColor;
+        opacity: .90;
+        top: 0;
+        left: 0;
+    }
+    
+}
+
+
+.csa-logo {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.csa-text {
+    position: relative;
+    max-width: 585px;
+    margin: 15px auto;
+    h3 {
+        font-size: 44px;
+        letter-spacing: 0px;
+        color: $primaryColor;
+        line-height: 48px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: $primaryColor;
+        line-height: 28px;
+        margin: 30px auto;
+    }
+}
+
+.csa-nl {
+    form.nl-form {
+        input {
+            border: 1px solid $primaryColor;
+        }
+    }
+}
+.csa-countdown {
+    position: relative;
+}
+
+ul.cdown-list {
+    position: relative;
+    padding: 10px 0px;
+    list-style-type: none;
+    margin: 15px auto;
+    li {
+        position: relative;
+        display: inline-block;
+        line-height: unset;
+    }
+}
+
+.single-countdown {
+    position: relative;
+    font-size: 70px;
+    letter-spacing: 0px;
+    color: $primaryColor;
+    line-height: inherit;
+    font-weight: 600;
+    display: block;
+    padding: 25px;
+    min-width: 140px;
+    text-align: center;
+}
+
+.countdown.single-countdown {
+    span {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        display: block;
+        margin: 0px auto;
+    }
+}
+
+ul.cdown-list {
+    li{
+        &:after {
+            position: absolute;
+            content: ':';
+            right: -13px;
+            top: 18px;
+            color: $primaryColor;
+            font-size: 60px;
+        }
+        &:last-child{
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
+
+
+
+.csa-social {
+    position: relative;
+    ul.footer-social {
+        li {
+            position: relative;
+            a {
+                display: block;
+                position: relative;
+                background-color: $primaryColor;
+                height: 55px;
+                width: 55px;
+                border-radius: 50%;
+                font-size: 26px;
+                padding-top: 15px;
+                margin: 5px;
+                color: $elementsColorII;
+                &:hover {
+                    color: $primaryColor;
+                    background-color: $elementsColorII;
+                }
+            }
+        }
+    }
+}
+
+/*----------------------------------------*/
+/*  Coming Soon Style END
+/*----------------------------------------*/

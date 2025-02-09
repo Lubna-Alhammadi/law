@@ -1,0 +1,183 @@
+/*----------------------------------------*/
+/*  Service Style
+/*----------------------------------------*/
+
+.area-of-practice {
+    position: relative;
+    padding: 40px 0px 80px;
+    .section-titleV1 {
+        margin-bottom: 80px;
+    }
+}
+
+.single-practice {
+    position: relative;
+    box-shadow: 1px 0px 6.44px 0.56px rgba(232, 235, 234, 0.39);
+    padding: 25px;
+    transition: .5s ease;
+    max-width: 350px;
+    width: 100%;
+    margin: 15px auto;
+    text-align: center;
+    &:hover {
+        box-shadow: 24.458px 23.618px 67.16px 5.84px rgba(232, 235, 234, 0.69);
+        .sp-text {
+            a {
+                opacity: 1;
+            }
+        }
+        .sp-icon {
+            img {
+                @include transform(scaleX(-1));
+            }
+        }
+    }
+    .sp-icon {
+        position: relative;
+        text-align: center;
+        margin-bottom: 10px;
+        
+        
+        img {
+            height: 65px;
+            @include transition(all, 1s, ease);
+        }
+    }
+    .sp-text {
+        position: relative;
+        max-width: 285px;
+        margin: 0 auto;
+        h4 {
+            color: #272b2e;
+            font-size: 24px;
+            letter-spacing: 0px;
+            line-height: 36px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        p {
+            color: #878a95;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0px;
+            font-weight: 400;
+            margin: 30px auto;
+        }
+        a {
+            font-size: 14px;
+            letter-spacing: 0px;
+            color: #bc9265;
+            text-transform: uppercase;
+            display: inline-block;
+            font-weight: 500;
+            line-height: 22px;
+            opacity: 0;
+            i {
+                margin-left: 10px;
+                transition: .5s ease;
+            }
+            &:hover {
+                i {
+                    margin-left: 2px;
+                }
+            }
+        }
+    }
+}
+
+.view-all-practice-btn {
+    position: relative;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.spmtop {
+    margin-top: 60px;
+}
+
+.spV3 {
+    .sp-text {
+        h4 {
+            color: #214167;
+        }
+        a {
+            color: #214167;
+        }
+    }
+}
+
+
+.sPv2 {
+    margin-bottom: 30px;
+    .sp-text {
+        a {
+            color: #ab121a;
+        }
+    }
+}
+
+.area-of-practice2 {
+    position: relative;
+    padding: 80px 0px;
+}
+
+.aop2-text {
+    position: relative;
+    margin: 40px auto;
+    padding: 60px 0px;
+    max-width: 480px;
+    h3 {
+        font-size: 40px;
+        letter-spacing: 0px;
+        line-height: 50px;
+        margin-bottom: 25px;
+        padding-top: 25px;
+    }
+    p {
+        font-size: 16px;
+        color: #878a95;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+    a.btn-style-b {
+        margin-top: 10px;
+    }
+}
+
+
+.practice-page-area {
+    position: relative;
+    margin: 120px 0px;
+}
+/*----------------------------------------*/
+/*  Service Style END
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  Practice Details style
+/*----------------------------------------*/
+
+
+.practice-details-area {
+    position: relative;
+    padding: 120px 0px;
+    .aboutPimg {
+        position: relative;
+        margin-bottom: 25px;
+    }
+    .aboutPtext {
+        ul.apt-list {
+            margin: 25px auto;
+            li {
+                margin: 12px auto;
+            }
+        }
+    }
+}
+
+
+
+/*----------------------------------------*/
+/*  Practice Details style END
+/*----------------------------------------*/

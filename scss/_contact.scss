@@ -1,0 +1,99 @@
+/*----------------------------------------*/
+/*  Contact Style
+/*----------------------------------------*/
+.contact-area {
+    position: relative;
+    padding: 80px 0px;
+}
+
+.get-in-touch-box {
+    position: relative;
+    max-width: 760px;
+    margin: 25px auto;
+}
+
+.gtb-title {
+    position: relative;
+    margin: 25px auto;
+    h3 {
+        font-size: 40px;
+        color: $quaternaryColor;
+        line-height: 44px;
+        letter-spacing: 0px;
+        font-weight: 600;
+        position: relative;
+        &:after {
+            position: absolute;
+            content: '';
+            height: 2px;
+            width: 100px;
+            background-color: $elementsColorIII;
+            bottom: -15px;
+            left: 0;
+            z-index: 1;
+        }
+    }
+}
+
+.single-contact-info {
+    position: relative;
+    max-width: 230px;
+    margin: 25px auto;
+    h4 {
+        font-size: 20px;
+        letter-spacing: 0px;
+        color: $quaternaryColor;
+        line-height: 28px;
+        margin-bottom: 12px;
+    }
+    p {
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #9d9d9d;
+        line-height: 22px;
+        font-weight: 300;
+    }
+}
+
+
+.contact-form {
+    position: relative;
+    max-width: 760px;
+    margin: 25px auto;
+    h4 {
+        font-size: 26px;
+        letter-spacing: 0px;
+        line-height: 36px;
+        color: $quaternaryColor;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+}
+
+.contact-map {
+    position: relative;
+    margin-top: 60px;
+}
+
+#googleMap {
+    height: 430px;
+    width: 100%;
+}
+.cf-msg {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px; 
+    p {
+        margin-bottom: 0;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0;
+        color: #717484;
+        text-transform: capitalize; 
+    }
+}
+
+/*----------------------------------------*/
+/*  Contact Style END
+/*----------------------------------------*/

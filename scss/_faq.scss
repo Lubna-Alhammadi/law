@@ -1,0 +1,95 @@
+/*----------------------------------------*/
+/*  Faq Style
+/*----------------------------------------*/
+
+.faq-area {
+    position: relative;
+    padding: 80px 0px;
+}
+
+.faq-wrapper {
+    position: relative;
+    margin: 25px auto;
+}
+
+.faq-box {
+    position: relative;
+}
+
+.accordion {
+    position: relative;
+    .card {
+        position: relative;
+        background-color: $septenaryColor;
+        border: 1px solid $septenaryColor;
+        margin: 30px auto;
+        .card-header {
+            position: relative;
+            background-color: $septenaryColor;
+            border: 1px solid $septenaryColor;
+            padding: 0;
+            a {
+                position: relative;
+                display: block;
+                padding: 12px 20px;
+                i {
+                    position: absolute;
+                    right: 10px;
+                    top: 18px;
+                    font-weight: unset;
+                    color: $secondaryColor;
+                }
+            }
+            h5 {
+                font-size: 24px;
+                letter-spacing: 0px;
+                color: $quaternaryColor;
+                font-weight: 400;
+                line-height: 36px;
+                border: none;
+                
+            }
+            .collapsed {
+                i{
+                    &:before {
+                        content: '\f067';
+                    }
+                }
+            }
+            &:hover {
+                a,
+                h5,
+                i {
+                    color: $elementsColor;
+                }
+            }
+        }
+        .card-body {
+            padding: 0px 20px;
+            p {
+                color: $octonaryColor;
+                font-size: 14px;
+                letter-spacing: 0px;
+                line-height: 25px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+.faq-question-submit {
+    position: relative;
+    margin: 25px auto 40px;
+    h4 {
+        font-size: 26px;
+        letter-spacing: 0px;
+        font-weight: 600;
+        color: $colorXIIColor;
+        line-height: 36px;
+        margin-bottom: 25px;
+    }
+}
+
+/*----------------------------------------*/
+/*  Faq Style END
+/*----------------------------------------*/

@@ -1,0 +1,310 @@
+/*----------------------------------------*/
+/*  Newsletter Style
+/*----------------------------------------*/
+
+.newsletter-area {
+    position: relative;
+}
+
+.newsletter-wrapper {
+    position: relative;
+    background-color: $primaryColor;
+    padding: 50px 25px;
+    margin-bottom: -75px;
+    z-index: 1;
+    // border: 1px solid $elementsColorII;
+}
+
+.nl-shadow {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 30px);
+    top: 0;
+    left: 15px;
+    background-color: $primaryColor;
+    box-shadow: -10.816px 18.001px 67.16px 5.84px rgba(232, 235, 234, 0.69);
+}
+
+
+
+
+form.nl-form {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    input {
+        max-width: 400px;
+        width: 100%;
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: $primary2Color;
+        padding: 10px 15px;
+        border: 1px solid $elementsColorII;
+    }
+    input[type="submit"] {
+        background-color: $elementsColorII;
+        border: 1px solid $elementsColorII;
+        color: $primaryColor;
+        max-width: 160px;
+        margin-left: 10px;
+        cursor: pointer;
+        @include transition(all, .5s, ease);
+        &:hover {
+            background-color: #b1824f;
+        }
+    }
+}
+
+.nlaV2 {
+    
+    form.nl-form {
+        input {
+            border-color: $nonaryColor;
+        }
+        input[type="submit"] {
+            border-color: $nonaryColor;
+            background-color: $nonaryColor;
+            @include transition(all, .5s, ease);
+            &:hover {
+                background-color: $quaternaryColor;
+            }
+        }
+    }
+}
+
+.nlaV3 {
+    form.nl-form {
+        input {
+            border-color: $denaryColor;
+        }
+        input[type="submit"] {
+            border-color: #a5a9b5;
+            background-color: #a5a9b5;
+            @include transition(all, .5s, ease);
+            &:hover {
+                border-color: $denaryColor;
+                background-color: $denaryColor;
+            }
+        }
+    }
+}
+/*----------------------------------------*/
+/*  Newsletter Style END
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*  Footer Style
+/*----------------------------------------*/
+.footer-area {
+    position: relative;
+    padding: 0px;
+    background-color: $tertiaryColor;
+}
+
+.footer-widget-area {
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 20px;
+}
+
+.f-widget {
+    position: relative;
+    margin: 0px auto 30px;
+    h4 {
+        font-size: 20px;
+        color: $elementsColorIII;
+        letter-spacing: 0px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    ul.fw-links {
+        position: relative;
+        padding: 0px;
+        list-style-type: none;
+        li {
+            position: relative;
+            margin: 5px auto;
+            a {
+                font-size: 14px;
+                letter-spacing: 0px;
+                color: $primaryColor;
+                line-height: 20px;
+                &:hover {
+                    color: $elementsColorIII;
+                }
+            }
+        }
+    }
+    p {
+        font-size: 14px;
+        letter-spacing: 0px;
+        color: $primaryColor;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    h5 {
+        color: $elementsColorIII;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    a {
+        font-size: 14px;
+        letter-spacing: 0px;
+        color: $primaryColor;
+        line-height: 20px;
+    }
+}
+
+.f-widget.footer-logo-text {
+    margin-top: -15px;
+    img {
+        margin-bottom: 15px;
+    }
+}
+
+ul.footer-social {
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    margin: 40px auto;
+    li {
+        position: relative;
+        display: inline-block;
+        a {
+            font-size: 20px;
+            display: block;
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            padding-top: 5px;
+            &:hover {
+                color: $elementsColorIII;
+            }
+        }
+    }
+}
+
+.footer-copyright-area {
+    position: relative;
+    padding: 15px 0px;
+    text-align: center;
+    border-top: 1px solid #4f5b5e;
+}
+
+.copyright-text {
+    position: relative;
+    p {
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: $secondaryColor;
+        line-height: 24px;
+    }
+    a {
+        color: $elementsColorIII;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 24px;
+    }
+}
+
+.ftrV2 {
+    .f-widget {
+        h4 {
+            color: $primaryColor;
+        }
+        ul.fw-links {
+            li {
+                a{
+                    &:hover {
+                        color: $nonaryColor;
+                    }
+                }
+            }
+        }
+        h5 {
+            color: $primaryColor;
+        }
+    }
+    .copyright-text {
+        a {
+            color: $nonaryColor;
+        }
+    }
+    ul.footer-social {
+        li {
+            a{
+                &:hover {
+                    color: $nonaryColor;
+                }
+            }
+        }
+    }
+}
+
+.ftrV3 {
+    background-color: $denaryColor;
+    .f-widget {
+        h4 {
+            color: $primaryColor;
+        }
+        a,
+        p {
+            color: $colorXIIIColor;
+        }
+        ul.fw-links {
+            li {
+                a {
+                    color: $colorXIIIColor;
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+        h5 {
+            color: $primaryColor;
+        }
+        
+    }
+    .f-widget.footer-logo-text {
+        p {
+            color: $primaryColor;
+        }
+    }
+    .copyright-text {
+        a {
+            color: $colorXIIIColor;
+        }
+    }
+    ul.footer-social {
+        li {
+            a{
+                color: $colorXIIIColor;
+                &:hover {
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+}
+a#scrollUp {
+    bottom: 9px;
+    z-index: 9;
+    right: 7px;
+    background-color: #c89a69;
+    display: inline-block;
+    color: #fff;
+    padding: 4px;
+    font-size: 16px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+/*----------------------------------------*/
+/*  Footer Style END
+/*----------------------------------------*/
